@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec9fdca-1739-4deb-906c-257f6d5f62b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laravel Forum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/single.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +185,7 @@
       <workItem from="1589243765309" duration="17675000" />
       <workItem from="1589316589520" duration="22876000" />
       <workItem from="1589395294058" duration="25487000" />
-      <workItem from="1589483491830" duration="15336000" />
+      <workItem from="1589483491830" duration="17881000" />
     </task>
     <servers />
   </component>
@@ -203,10 +209,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1588720355819" />
-    <state x="377" y="117" width="782" height="600" key="find.popup" timestamp="1589339531235">
+    <state x="377" y="117" width="782" height="600" key="find.popup" timestamp="1589521417659">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="377" y="117" width="782" height="600" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589339531235" />
+    <state x="377" y="117" width="782" height="600" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589521417659" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1589166407382">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

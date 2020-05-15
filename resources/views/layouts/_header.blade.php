@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow mb-4" style="height: 60px">
-    <span class="navbar-brand mr-auto ml-lg-5">LaraBBS</span>
+    <span class="navbar-brand mr-auto ml-lg-5">Laravel Forum</span>
     <div class="collapse navbar-collapse ml-4" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">

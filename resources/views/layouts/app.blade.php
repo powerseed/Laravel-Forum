@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     @csrf
-    <title>@yield('title', 'LaraBBS') - LaraBBS</title>
+    <title>@yield('title', 'Laravel Forum') - Laravel Forum</title>
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     @yield('styles')
 </head>

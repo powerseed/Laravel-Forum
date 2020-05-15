@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'LaraBBS')
+@section('title', 'Laravel Forum')
 @section('content')
     <div class="container col-lg-9">
         <div class="card">
