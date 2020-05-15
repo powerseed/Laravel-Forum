@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec9fdca-1739-4deb-906c-257f6d5f62b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laravel Forum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/single.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +178,8 @@
       <workItem from="1589243765309" duration="17675000" />
       <workItem from="1589316589520" duration="22876000" />
       <workItem from="1589395294058" duration="25487000" />
-      <workItem from="1589483491830" duration="17881000" />
+      <workItem from="1589483491830" duration="19011000" />
+      <workItem from="1589554363947" duration="2961000" />
     </task>
     <servers />
   </component>
@@ -197,10 +191,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1589514665575" />
-    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1589491268948">
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1589554771607">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1589491268948" />
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1589554771607" />
     <state x="599" y="341" key="NewPhpFileDialog" timestamp="1589326582186">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
