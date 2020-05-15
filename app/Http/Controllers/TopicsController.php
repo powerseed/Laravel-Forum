@@ -10,6 +10,7 @@ use App\Topic;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 
 class TopicsController extends Controller
 {
@@ -40,11 +41,12 @@ class TopicsController extends Controller
         return redirect()->route('topics.show', $topic->id)->with('success', 'New topic created successfully. ');
     }
 
-    public function show(Topic $topic)
+    public function show(Request $request, Topic $topic)
     {
         $user = User::find($topic->user_id);
         $replies = Reply::where('topic_id', $topic->id)->with('user')->orderBy('created_at', 'desc')->paginate(10);
-        return view('topics.single', compact('topic', 'user', 'replies'));
+        $previous_url = $request->previous_url;
+        return view('topics.single', ['topic' => $topic, 'user' => $user, 'replies' => $replies, 'previous_url' => $previous_url]);
     }
 
     public function uploadImage(Request $request)
@@ -94,6 +96,6 @@ class TopicsController extends Controller
         $this->authorize('update', $topic);
         $topic->delete();
 
-        return redirect($request->url)->with('success', 'Topic deleted successfully. ');
+        return Redirect::to($request->previous_url)->with('success', 'Topic deleted successfully. ');
     }
 }

@@ -7,7 +7,7 @@
                 </div>
 
                 <div class="col-lg-10">
-                    <a href="{{ route('topics.show', $topic) }}" style="font-size: 20px">{{ $topic->title }}</a>
+                    <a href="{{ route('topics.show', ['topic' => $topic, 'previous_url' => url()->full()]) }}" style="font-size: 20px">{{ $topic->title }}</a>
                     <div class="mt-1">
                         <span class="mr-2">
                             <a href="{{ route('categories.show', $topic->category->id) }}">
@@ -17,8 +17,10 @@
                         </span>
 
                         <span class="mr-2">
-                            <i class="far fa-user"></i>
-                            {{ $topic->user->name }}
+                            <a href="{{ route('users.show', $topic->user) }}">
+                                <i class="far fa-user"></i>
+                                {{ $topic->user->name }}
+                            </a>
                         </span>
 
                         <span>

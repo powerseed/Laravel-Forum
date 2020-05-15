@@ -24,7 +24,7 @@
                         <i class="far fa-edit"></i>
                         Edit
                     </a>
-                    <form action="{{ route('topics.destroy', $topic) }}" method="POST" style="display: inline-block">
+                    <form action="{{ route('topics.destroy', ['topic' => $topic, 'previous_url' => $previous_url]) }}" method="POST" style="display: inline-block">
                         <input type="hidden" name="_method" value="delete">
                         <input type="hidden" name="url" value="{{ url()->previous() }}">
                         @csrf
@@ -43,7 +43,7 @@
                     @if(\Illuminate\Support\Facades\Auth::check())
                         <li class="list-group-item">
                             @include('shared._errors')
-                            <form action="{{ route('replies.store') }}" method="POST">
+                            <form action="{{ route('replies.store', ['previous_url' => $previous_url]) }}" method="POST">
                                 <input type="hidden" name="topic_id" value="{{ $topic->id }}">
                                 @csrf
                                 <textarea name="content" id="content" cols="100" rows="4" placeholder="Please reply here...">{{ old('content') }}</textarea>
@@ -76,7 +76,7 @@
 
                                 @can('delete', $reply)
                                     <div class="col-lg-1 d-flex justify-content-end">
-                                        <form action="{{ route('replies.destroy', $reply->id) }}" method="post">
+                                        <form action="{{ route('replies.destroy', ['reply' => $reply, 'previous_url' => $previous_url]) }}" method="post">
                                             <input type="hidden" name="_method" value="DELETE">
                                             @csrf
                                             <button type="submit" class="btn">

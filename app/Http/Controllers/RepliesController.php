@@ -16,15 +16,14 @@ class RepliesController extends Controller
         $reply->topic_id = $request->topic_id;
         $reply->save();
 
-        return redirect()->back();
+        return redirect()->route('topics.show', ['topic' => $reply->topic, 'previous_url' => $request->previous_url]);
     }
 
-    public function destroy(Reply $reply)
+    public function destroy(Request $request, Reply $reply)
     {
         $this->authorize('delete', $reply);
-
         $reply->delete();
 
-        return redirect()->back();
+        return redirect()->route('topics.show', ['topic' => $reply->topic, 'previous_url' => $request->previous_url]);
     }
 }
