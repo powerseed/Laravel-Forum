@@ -11,4 +11,4 @@ Test account:
 <br>
 email: powerseed5044@gmail.com
 <br>
-password: 11111111 
+password: password 
