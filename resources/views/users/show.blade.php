@@ -50,7 +50,7 @@
                         @if(request()->query('tab') == '')
                             @foreach($topics as $topic)
                                 <li class="list-group-item">
-                                    <a class="float-left" href="">{{ $topic->title }}</a>
+                                    <a class="float-left" href="{{ route('topics.show', $topic) }}">{{ $topic->title }}</a>
                                     <div class="float-right">
                                         <span>{{ $topic->reply_count }} replies</span>
                                         <span> · </span>

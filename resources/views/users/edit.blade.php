@@ -24,8 +24,7 @@
 
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Personal introduction</label>
-                            <textarea name="introduction" class="form-control" id="exampleFormControlTextarea1" rows="3" value="{{ old('introduction', $user->introduction) }}">
-                            </textarea>
+                            <textarea name="introduction" class="form-control" id="exampleFormControlTextarea1" rows="3" value="{{ old('introduction', $user->introduction) }}"></textarea>
                         </div>
 
                         <div class="form-group">

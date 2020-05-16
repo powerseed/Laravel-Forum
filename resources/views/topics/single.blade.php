@@ -12,7 +12,7 @@
                      ·
                     <span>
                         <i class="far fa-comment-dots"></i>
-                        {{$topic->reply_count}}
+                        {{count($topic->replies)}}
                     </span>
                 </div>
                 <br>
