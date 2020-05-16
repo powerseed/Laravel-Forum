@@ -6,3 +6,9 @@
 
 ## Heroku link:
 http://desolate-depths-67569.herokuapp.com/
+<br>
+Test account:
+<br>
+email: powerseed5044@gmail.com
+<br>
+password: 11111111 
